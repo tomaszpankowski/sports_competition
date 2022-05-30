@@ -1,14 +1,42 @@
+$prefix: "../img/";
+$bg__athletes-img: 
+    $prefix+"athletes/athletes-s1.jpg",
+    $prefix+"athletes/athletes-s2.jpg";
 $bg__coming-img: "../img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg",
+    $prefix+"contact/contact-s3.jpg";
 $bg__error-img: "../img/error.jpg";
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__news-img: 
+    $prefix+"news/news-s1.jpg",
+    $prefix+"news/news-s2.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__sports-img: 
+    $prefix+"sports/sports-s1.jpg",
+    $prefix+"sports/sports-s2.jpg";
+$bg__user-img: $prefix+"user/user-s1.jpg";
 $bg__classes:
+    "athletes",
     "coming",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "news",
+    "privacy",
+    "sports",
+    "user";
 $bg__img-arr: 
+    $bg__athletes-img,
     $bg__coming-img,
+    $bg__contact-img,
     $bg__error-img,
-    $bg__privacy-img;
+    $bg__index-img,
+    $bg__news-img,
+    $bg__privacy-img,
+    $bg__sports-img,
+    $bg__user-img;
 $color__shadow: #333;
 $footer__height: 41px;
 $text-shadow: 1px 1px 3px $color__shadow; 
